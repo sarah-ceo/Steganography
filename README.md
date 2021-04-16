@@ -1,7 +1,7 @@
 # Steganography
 This is a school project: a C++ program that can hide an image inside another image (steganography), using OpenCV.
 
-This code implements the technique described in the following article: "".
+This code implements the technique described in the following article: "Dasgupta, K., Mandal, J.K. and Dutta, P., 2012. Hash based least significant bit technique for video steganography (HLSB). International Journal of Security, Privacy and Trust Management (IJSPTM), 1(2), pp.1-11."
 
 The encoding part is run first, showing the two original images (data/lena.png and data/opencv.jpg), and then the encoded image. The latter is saved under encoded_image.png in the current folder. 
 
@@ -14,10 +14,12 @@ Original image :
 ![](data/lena.png)
 
 Image to encode :
+
 ![](data/opencv.jpg)
 
 Encoded image : 
-![](encoded_image.png)
+
+![](Exercice2/encoded_image.png)
 
 ## Instructions
 
