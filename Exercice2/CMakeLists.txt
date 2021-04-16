@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( Steganographie )
+find_package( OpenCV REQUIRED )
+include_directories( ${OpenCV_INCLUDE_DIRS} )
+add_executable( Steganographie Steganographie.cpp )
+target_link_libraries( Steganographie ${OpenCV_LIBS} )
